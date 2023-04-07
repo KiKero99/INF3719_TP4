@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Member } from '../../../../../common/tables/tableTypes';
+import { MOCK_MEMBERS } from '../../../../../common/constants';
 
 @Component({
   selector: 'app-display-members',
@@ -16,4 +17,8 @@ export class DisplayMembersComponent {
     adressePostale: 'H4I3RT',
     age: 21,
   }];
+
+  constructor() {
+    this.members = MOCK_MEMBERS;
+  }
 }
