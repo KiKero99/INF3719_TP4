@@ -1,0 +1,17 @@
+<div class="element">
+    <div class="items">
+        <div class="item">
+            <span>Id</span>
+            <span>Lieu D'Origine</span>
+            <span>Adresse Electronique</span>
+            <span>Mot de Passe</span>
+            <span>Permis Est Valide</span>
+            <span>Adresse Postale</span>
+            <span>Age</span>
+        </div>
+
+        <div *ngFor="let data of members">
+            <app-member-input [member]="data"></app-member-input>
+        </div>
+    </div>
+</div>

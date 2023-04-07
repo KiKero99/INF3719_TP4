@@ -1,0 +1,15 @@
+#body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 3%;
+}
+
+span {
+    display: inline-block;
+    text-align: center;
+    font-size: 150%;
+    width: 200px;
+}

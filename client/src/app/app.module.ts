@@ -12,6 +12,8 @@ import { NavigationBarComponent } from './components/navigation-bar/navigation-b
 import { MembersPageComponent } from './pages/members-page/members-page.component';
 import { ReservationsPageComponent } from './pages/reservations-page/reservations-page.component';
 import { ReservationsCreationPageComponent } from './pages/reservations-creation-page/reservations-creation-page.component';
+import { DisplayMembersComponent } from './components/display-members/display-members.component';
+import { MemberInputComponent } from './components/member-input/member-input.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ReservationsCreationPageComponent } from './pages/reservations-creation
     NavigationBarComponent,
     MembersPageComponent,
     ReservationsPageComponent,
-    ReservationsCreationPageComponent
+    ReservationsCreationPageComponent,
+    DisplayMembersComponent,
+    MemberInputComponent
   ],
   imports: [
     CommonModule,
