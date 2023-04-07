@@ -1,15 +1,5 @@
 <div>
-  <nav class="navbar navbar-dark bg-dark main-nav">
-    <a class="navbar-brand title" href="/" matTooltip="Retournez à l'accueil">INF3710 - TP4</a>
-    <div class="navbar-expand mr-auto">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" routerLink="/ROUTEUR_À_IMPLÉMENTER">LIEN 1</a>
-        <a class="nav-item nav-link active" routerLink="/ROUTEUR_À_IMPLÉMENTER">LIEN 2</a>
-        <a class="nav-item nav-link active" routerLink="/ROUTEUR_À_IMPLÉMENTER">LIEN 3</a>
-      </div>
-    </div>
-  </nav>
-
+  <app-navigation-bar></app-navigation-bar>
   <div class="home" *ngIf="route == ''">
     <p>
       INF3710 TP4 - Applications et Bases de données
