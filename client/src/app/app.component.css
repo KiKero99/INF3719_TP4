@@ -42,7 +42,7 @@
 .team-name {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-  color: black;
+  color: rgba(154, 117, 240, 1);
   font-weight: bold;
   font-size: large;
 }
@@ -50,10 +50,14 @@
 .footer-item {
   text-align: center;
   color: black;
-  background-color: rgba(154, 117, 240, 0.4);
+  background-color: rgb(2, 1, 6);
   padding-top: 1%;
   padding-bottom: 1%;
   width: 100%;
   position: absolute;
   bottom: 0;
+}
+
+.team-members {
+  color: white;
 }
