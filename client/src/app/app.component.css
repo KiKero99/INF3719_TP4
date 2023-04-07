@@ -10,7 +10,7 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   width: 80%;
   margin-left: 10.5%;
   font-family: 'Roboto', sans-serif;
@@ -36,4 +36,24 @@
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   padding: 1%;
+}
+
+
+.team-name {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer-item {
+  text-align: center;
+  color: black;
+  background-color: rgba(154, 117, 240, 0.4);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
