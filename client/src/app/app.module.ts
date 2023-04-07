@@ -9,11 +9,17 @@ import { CommunicationService } from "./services/communication.service";
 import { AppMaterialModule } from './modules/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
+import { MembersPageComponent } from './pages/members-page/members-page.component';
+import { ReservationsPageComponent } from './pages/reservations-page/reservations-page.component';
+import { ReservationsCreationPageComponent } from './pages/reservations-creation-page/reservations-creation-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    MembersPageComponent,
+    ReservationsPageComponent,
+    ReservationsCreationPageComponent
   ],
   imports: [
     CommonModule,
